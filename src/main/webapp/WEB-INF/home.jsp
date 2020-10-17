@@ -30,8 +30,8 @@
 	<p> Email : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">chinmayachhotaray@gmail.com </p>
 <hr>
 
-	<p align=center><small>Twitter Connect <a href="https://twitter.com/Chinmay08011135">Twitter</a> </small></p>
         <p align=center><small>FB Connect <a href="https://www.facebook.com/ccschhotaray/">Facebook</a> </small></p>
+	<p align=center><small>FB Connect <a href="https://www.facebook.com/ccschhotaray/">Facebook</a> </small></p>
 
 </body>
 </html>
