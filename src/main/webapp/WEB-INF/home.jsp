@@ -11,19 +11,18 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Technologies.</h1>
-<h1 align="center">Very Good Training center for DevOps in Maratha Halli and also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center">Welcome Chinmaya</h1>
+<h1 align="center">FullName- Chinmaya Chandrasekhar chhotaray</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="${mithunlogo}" alt="" width="100"/>
+		<img src="${mypic}" alt="" width="100"/>
 
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli,Opp To Madhurai Iddly House
-		Bangalore.
-		+91-9980923226
+		J&K 56, secondFloor
+		Single Room 
+		Mob-9439691738,9069722628
 	</span>
 </div>
 <hr>
