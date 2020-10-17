@@ -8,7 +8,7 @@
 <spring:url value="/resources/images/mypic.jpg" var="mithunlogo" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MithunTechnologies- Home Page</title>
-<link href="${mithunlogo}" rel="icon">
+<link href="${mypic}" rel="icon">
 </head>
 </head>
 <body>
@@ -17,20 +17,20 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="${mithunlogo}" alt="" width="100"/>
+		<img src="${mypic}" alt="" width="100"/>
 
 	</span>
 	<span style="font-weight: bold;">
-		J&K 56, secondFloor /n
-		Single Room /n
+		J&K 56, secondFloor
+		Single Room 
 		Mob-9439691738,9069722628
 	</span>
 </div>
 <hr>
-	<p> Service : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">Get Employee Details </p>
+	<p> Service : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">Connect with me </p>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2018 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+// <p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
+// <p align=center><small>Copyrights 2018 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
 
 </body>
 </html>
