@@ -26,10 +26,10 @@
 	</span>
 </div>
 <hr>
-	<p> Service : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">Get Employee Details </p>
+	<p> Email : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">chinmayachhotaray@gmail.com </p>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2018 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+<p align=center><small>Twitter Connect <a href="https://twitter.com/Chinmay08011135">Facebook</a> </small></p>
+<p align=center><small>FB Connect <a href="https://www.facebook.com/ccschhotaray/">Facebook</a> </small></p>
 
 </body>
 </html>
