@@ -29,8 +29,8 @@
 <hr>
 	<p> Service : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">Connect with me </p>
 <hr>
-// <p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-// <p align=center><small>Copyrights 2018 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+ <p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
+ <p align=center><small>Copyrights 2018 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
 
 </body>
 </html>
