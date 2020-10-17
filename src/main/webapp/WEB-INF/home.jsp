@@ -22,14 +22,16 @@
 	<span style="font-weight: bold;">
 		J&K 56, secondFloor
 		Single Room 
+		<br />
 		Mob-9439691738,9069722628
 	</span>
 </div>
 <hr>
 	<p> Email : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">chinmayachhotaray@gmail.com </p>
 <hr>
-<p align=center><small>Twitter Connect <a href="https://twitter.com/Chinmay08011135">Facebook</a> </small></p>
-<p align=center><small>FB Connect <a href="https://www.facebook.com/ccschhotaray/">Facebook</a> </small></p>
+
+	<p align=center><small>Twitter Connect <a href="https://twitter.com/Chinmay08011135">Twitter</a> </small></p>
+        <p align=center><small>FB Connect <a href="https://www.facebook.com/ccschhotaray/">Facebook</a> </small></p>
 
 </body>
 </html>
