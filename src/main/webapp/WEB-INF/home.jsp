@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<spring:url value="/resources/images/mithunlogo.jpg" var="mithunlogo" />
+<spring:url value="/resources/images/mypic.jpg" var="mithunlogo" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MithunTechnologies- Home Page</title>
 <link href="${mithunlogo}" rel="icon">
@@ -21,8 +21,8 @@
 
 	</span>
 	<span style="font-weight: bold;">
-		J&K 56, secondFloor
-		Single Room
+		J&K 56, secondFloor /n
+		Single Room /n
 		Mob-9439691738,9069722628
 	</span>
 </div>
