@@ -30,7 +30,16 @@ pipeline {
          
         
       }
-     
+      
+     stage('Sonar-Qualitygate') {
+         steps {
+        withSonarQubeEnv('Sonar')
+        sh "${M2_HOME}/bin/mvn sonar:sonar"
+         }
+         
+         
+        
+      }
 
       
    }
