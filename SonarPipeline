@@ -2,8 +2,14 @@ pipeline {
    agent any
 
    tools {
-      maven 'Maven 3.6.3'
-      Sonar_Sacnner 'Sonar_Sacnner'
+  maven 'Maven 3.6.3'
+}
+tools {
+  Sonar 'Sonar_Sacnner'
+}
+
+
+      //maven 'Maven 3.6.3'
         //jdk 'jdk8'
         //tool name: 'Maven 3.6.3', type: 'maven'
         //tool name: 'sonar_scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
