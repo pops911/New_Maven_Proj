@@ -2,8 +2,10 @@ pipeline {
    agent any
 
    tools {
-      maven 'Maven 3.6.3'
+      //maven 'Maven 3.6.3'
         //jdk 'jdk8'
+        tool name: 'Maven 3.6.3', type: 'maven'
+        tool name: 'sonar_scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
    }
 
    stages {
@@ -13,12 +15,15 @@ pipeline {
         git credentialsId: 'git', url: 'https://github.com/Devops2272/New-Maven-Branch.git'
         
         }
-     
-     
-     
+     }
+   
+     stage('Generate Build Artifact') {
+        steps {
+        sh 'mvn clean package'
+        
+        }
      }
    
    
-   
-}
-}
+}//stages
+}//pipeline
