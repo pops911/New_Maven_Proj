@@ -18,7 +18,7 @@ pipeline {
       stage('code checkout') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/Devops2272/New-Maven-Branch'
+            git credentialsId: 'git', url: 'https://github.com/Devops2272/New-Maven-Branch.git'
 
             // Run Maven on a Unix agent.
             //sh "mvn -Dmaven.test.failure.ignore=true clean package"
