@@ -9,7 +9,7 @@ pipeline {
    stages {
      stage ('Initialize') {
                steps {
-                bat '''
+                sh '''
                     echo "PATH = ${PATH}"
                     echo "M2_HOME = ${M2_HOME}"
                 '''
@@ -34,7 +34,7 @@ pipeline {
      stage('Sonar-Qualitygate') {
          steps {
         withSonarQubeEnv('SonarQube_Server')
-        bat "${M2_HOME}/bin/mvn sonar:sonar"
+        sh "${M2_HOME}/bin/mvn sonar:sonar"
          }
          
          
