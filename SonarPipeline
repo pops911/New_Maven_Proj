@@ -7,40 +7,18 @@ pipeline {
    }
 
    stages {
-     stage ('Initialize') {
-               steps {
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                '''
-            }
-        }
-      stage('code checkout') {
-         steps {
-            // Get some code from a GitHub repository
-            git credentialsId: 'git', url: 'https://github.com/Devops2272/New-Maven-Branch.git'
-
-            // Run Maven on a Unix agent.
-            //sh "mvn -Dmaven.test.failure.ignore=true clean package"
-
-            // To run Maven on a Windows agent, use
-            // bat "mvn -Dmaven.test.failure.ignore=true clean package"
-         }
-         
-      }
-      stage('Build Package'){
-        step{
-             if (isUnix()) {
-           sh 'mvn clean package'   
-          }  
-          else{
-              bat 'mvn clean package'
-          }
-        }
-      
-     }
      
-
-      
-   }
+     stage('code checkout') {
+        steps {
+        git credentialsId: 'git', url: 'https://github.com/Devops2272/New-Maven-Branch.git'
+        
+        }
+     
+     
+     
+     }
+   
+   
+   
+}
 }
