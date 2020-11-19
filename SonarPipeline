@@ -21,6 +21,13 @@ pipeline {
         }
      }
    
+      stage('Sonar scan') {
+        steps {
+        sh 'mvn sonar:sonar'
+        
+        }
+     }
+   
    
 }
 }
