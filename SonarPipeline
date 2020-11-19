@@ -27,19 +27,14 @@ pipeline {
             // bat "mvn -Dmaven.test.failure.ignore=true clean package"
          }
          
-         
-        
       }
+      stage('Build Package'){
+        step{
+             sh 'mvn clean package'
+        }
       
-     stage('Sonar-Qualitygate') {
-         steps {
-        withSonarQubeEnv('SonarQube_Server')
-        sh "${M2_HOME}/bin/mvn sonar:sonar"
-         }
-         
-         
-        
-      }
+     }
+     
 
       
    }
