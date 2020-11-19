@@ -4,10 +4,6 @@ pipeline {
    tools {
   maven 'Maven 3.6.3'
 }
-tools {
-  Sonar 'Sonar_Sacnner'
-}
-
 
       //maven 'Maven 3.6.3'
         //jdk 'jdk8'
