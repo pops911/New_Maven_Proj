@@ -28,17 +28,6 @@ pipeline {
         }
      }*/
     
-    stage('mail') {
-       post {
-         success {
-             mail to: 'chinmaya.devops2272@gmail.com',
-             subject: "Build Succes: ${currentBuild.fullDisplayName}",
-             body: "SUCCESSFUL: Job NTE_Build Check console output at  ${env.BUILD_URL}"
-  }
-}
-}   
-    
-    
    
 }
 }
