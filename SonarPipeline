@@ -3,9 +3,10 @@ pipeline {
 
    tools {
       maven 'Maven 3.6.3'
+      Sonar_Sacnner 'Sonar_Sacnner'
         //jdk 'jdk8'
         //tool name: 'Maven 3.6.3', type: 'maven'
-        tool name: 'sonar_scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
+        //tool name: 'sonar_scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
    }
 
    stages {
