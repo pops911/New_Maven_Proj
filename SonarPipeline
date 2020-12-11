@@ -30,7 +30,8 @@ pipeline {
     
    
 }
-publishers {
+post{
+        always{
         cleanWs { // Clean after build
             cleanWhenAborted(true)
             cleanWhenFailure(true)
@@ -42,4 +43,5 @@ publishers {
             disableDeferredWipeout(true)
             }
           }
+         } 
 }
