@@ -31,7 +31,7 @@ pipeline {
    stage('Deploye to Nexus') {
   steps {
    sh 'mvn deploy'
-   nexusArtifactUploader artifacts: [[artifactId: 'maven-web-application', classifier: '', file: 'maven-web-application.war', type: 'war']], credentialsId: 'Nexus', groupId: 'com.mt', nexusUrl: 'localhost:8085/', nexusVersion: 'nexus3', protocol: 'http', repository: 'http://localhost:8085/repository/Maven-Java-Project-Snapshot/', version: '2.0-SNAPSHOT'
+   
   }
 
   post {
