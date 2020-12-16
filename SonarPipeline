@@ -34,13 +34,13 @@ pipeline {
    nexusArtifactUploader artifacts: [[artifactId: 'maven-web-application', classifier: '', file: 'target/maven-web-application.war', type: 'war']], credentialsId: 'Nexus', groupId: 'com.mt', nexusUrl: 'localhost:8085', nexusVersion: 'nexus3', protocol: 'http', repository: 'Maven-Java-Project-Snapshot', version: '3.0-SNAPSHOT'
   }
 
-  post {
-    always {
-      cleanWs()
-    }
-  }
 }
-
+stage('Build Docker Image') {
+        steps {
+        
+        sshPublisher(publishers: [sshPublisherDesc(configName: 'Docker', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'docker build -t newapp .', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '**/*.war')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+        }
+     }
    
 }
 
