@@ -27,12 +27,6 @@ pipeline {
         }
      }
    
-      /*stage('Sonar scan') {
-        steps {
-        sh 'mvn sonar:sonar'
-        
-        }
-     }*/
     
    stage('Deploye to Nexus') {
   steps {
