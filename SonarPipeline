@@ -13,7 +13,13 @@ pipeline {
         
         }
      }
-   
+   stage ('SonarQube Analysis') {
+      steps {
+        withSonarQubeEnv('SonarQube_Server') {
+        sh 'mvn sonar:sonar'
+        }
+      }
+    }
      stage('Generate Build Artifact') {
         steps {
         sh 'mvn clean package'
