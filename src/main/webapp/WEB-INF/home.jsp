@@ -11,8 +11,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome Chinmaya</h1>
-<h1 align="center">FullName- Chinmaya Chandrasekhar chhotaray</h1>
+<h1 align="center">Welcome Pops</h1>
+<h1 align="center">FullName- Soumya Ranjan Das</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
@@ -27,7 +27,7 @@
 	</span>
 </div>
 <hr>
-	<p> Email : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">chinmayachhotaray@gmail.com </p>
+	<p> Email : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">soumyaranjan911@gmail.com </p>
 <hr>
 
         <p align=center><small>Twitter Connect  <a href="https://twitter.com/Chinmay08011135">Twitter</a> </small></p>
