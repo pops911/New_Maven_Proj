@@ -16,7 +16,7 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="${mypic}" alt="" width="100"/>
+		<img src="${pic}" alt="" width="100"/>
 
 	</span>
 	<span style="font-weight: bold;">
