@@ -15,7 +15,7 @@ node('master'){
  
  stage('Build')
  {
-  sh  "${mavenHome}/bin/mvn clean packageeeeeee"
+  sh  "${mavenHome}/bin/mvn clean package"
  }
  
  stage('SonarQube Report')
